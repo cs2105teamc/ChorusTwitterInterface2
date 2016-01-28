@@ -1,0 +1,1287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deviceRegistry version="2.0.1.201509042315">
+   <defaultDeviceSdkName value="Oracle Java(TM) Platform Micro Edition SDK 8.2"/>
+   <defaultDevicename value="EmbeddedDevice1"/>
+   <device0 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="0">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="1">
+         <entryCount value="33"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="2">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\cldc_1.8.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="3">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.8"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/cldc-1.8.zip!/"/>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="4">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\configuration_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="5">
+               <identifier value="CONFIGURATION"/>
+               <name value="Configuration API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/configuration_javadoc.zip!/"/>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="6">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="7">
+               <identifier value="DEVICE-IO"/>
+               <name value="Device I/O API - Access and Control"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="8">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_adc.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="9">
+               <identifier value="DEVICE-IO-ADC"/>
+               <name value="Device I/O API - Analog to Digital Converter (ADC)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="10">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_atcmd.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="11">
+               <identifier value="DEVICE-IO-ATCMD"/>
+               <name value="Device I/O API - AT Commands"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="12">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_counter.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="13">
+               <identifier value="DEVICE-IO-COUNTER"/>
+               <name value="Device I/O API - Pulse Counter"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="14">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_dac.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="15">
+               <identifier value="DEVICE-IO-DAC"/>
+               <name value="Device I/O API - Digital to Analog Converter (DAC)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="16">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_generic.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="17">
+               <identifier value="DEVICE-IO-GENERIC"/>
+               <name value="Device I/O API - Generic I/O"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="18">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_gpio.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="19">
+               <identifier value="DEVICE-IO-GPIO"/>
+               <name value="Device I/O API - General Purpose Input Output (GPIO)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="20">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_i2cbus.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="21">
+               <identifier value="DEVICE-IO-I2CBUS"/>
+               <name value="Device I/O API - Inter-Integrated Circuit Bus (I2C)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="22">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_modem.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="23">
+               <identifier value="DEVICE-IO-MODEM"/>
+               <name value="Device I/O API - Modem"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="24">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_spibus.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="25">
+               <identifier value="DEVICE-IO-SPIBUS"/>
+               <name value="Device I/O API - Serial Peripheral Interface Bus (SPI)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry11>
+         <entry12 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="26">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_uart.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="27">
+               <identifier value="DEVICE-IO-UART"/>
+               <name value="Device I/O API - Universal Asynchronous Receiver/Transmitter (UART)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry12>
+         <entry13 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="28">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_watchdog.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="29">
+               <identifier value="DEVICE-IO-WATCHDOG"/>
+               <name value="Device I/O API - Watchdog Timers"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry13>
+         <entry14 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="30">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\gcf_1.8.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="31">
+               <identifier value="GCF"/>
+               <name value="Generic Connection Framework"/>
+               <type value="2"/>
+               <version value="1.8"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/gcf-1.8.zip!/"/>
+         </entry14>
+         <entry15 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="32">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\httpclient_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="33">
+               <identifier value="HTTPCLIENT"/>
+               <name value="HTTP Client"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/httpclient_javadoc.zip!/"/>
+         </entry15>
+         <entry16 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="34">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\json_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="35">
+               <identifier value="JSON"/>
+               <name value="JSON"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/json_javadoc.zip!/"/>
+         </entry16>
+         <entry17 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="36">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr120_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="37">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry17>
+         <entry18 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="38">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="39">
+               <identifier value="JSR172"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr172.zip!/"/>
+         </entry18>
+         <entry19 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="40">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr177_1.0-apdu.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="41">
+               <identifier value="SATSA-APDU"/>
+               <name value="Application Protocol Data Unit APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr177.zip!/"/>
+         </entry19>
+         <entry20 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="42">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr177_1.0-crypto.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="43">
+               <identifier value="SATSA-CRYPTO"/>
+               <name value="Java Cryptographics Extension APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr177.zip!/"/>
+         </entry20>
+         <entry21 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="44">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="45">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry21>
+         <entry22 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="46">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="47">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr280.zip!/"/>
+         </entry22>
+         <entry23 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="48">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr75_1.0-fc.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="49">
+               <identifier value="JSR75-FileConnection"/>
+               <name value="FileConnection Optional Package"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry23>
+         <entry24 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="50">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-cellular.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="51">
+               <identifier value="MEEP-CELLULAR"/>
+               <name value="MEEP Cellular"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry24>
+         <entry25 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="52">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-event.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="53">
+               <identifier value="MEEP-EVENTS"/>
+               <name value="MEEP Events"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry25>
+         <entry26 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="54">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-io.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="55">
+               <identifier value="MEEP-IO"/>
+               <name value="MEEP Input Output"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry26>
+         <entry27 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="56">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-media.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="57">
+               <identifier value="MEEP-MEDIA"/>
+               <name value="MEEP Media"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry27>
+         <entry28 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="58">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-power.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="59">
+               <identifier value="MEEP-POWER-MANAGEMENT"/>
+               <name value="MEEP Power Management"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry28>
+         <entry29 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="60">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-rms.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="61">
+               <identifier value="MEEP-RMS"/>
+               <name value="MEEP Record Management Store"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry29>
+         <entry30 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="62">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-swm.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="63">
+               <identifier value="MEEP-SWM"/>
+               <name value="MEEP Software Management"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry30>
+         <entry31 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="64">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="65">
+               <identifier value="MEEP"/>
+               <name value="ME Embedded Profile"/>
+               <type value="1"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry31>
+         <entry32 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="66">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\oauth2_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="67">
+               <identifier value="OAUTH2"/>
+               <name value="OAuth2"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/oauth2_javadoc.zip!/"/>
+         </entry32>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="Qualcomm_IoE_Device"/>
+      <deviceProperties>
+         <property key="version.configuration" value="CLDC-1.8"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xi3test,Xmemmon,Xnetmon,Xprofile"/>
+         <property key="apis" value="C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/cldc_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/configuration_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_adc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_atcmd.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_counter.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_dac.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_generic.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_gpio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_i2cbus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_modem.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_spibus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_uart.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_watchdog.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/gcf_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/httpclient_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/json_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr120_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr172_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-apdu.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-crypto.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr179_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr280_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr75_1.0-fc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-cellular.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-event.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-io.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-media.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-power.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-rms.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-swm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/oauth2_1.0.jar"/>
+         <property key="descriptor" value="Emulation for Qualcomm IoE Development Board"/>
+         <property key="version.profile" value="MEEP-8.0"/>
+         <property key="apis.supported" value="CONFIGURATION-1.0,DEVICE-IO-1.1,DEVICE-IO-ADC-1.1,DEVICE-IO-ATCMD-1.1,DEVICE-IO-COUNTER-1.1,DEVICE-IO-DAC-1.1,DEVICE-IO-GENERIC-1.1,DEVICE-IO-GPIO-1.1,DEVICE-IO-I2CBUS-1.1,DEVICE-IO-MODEM-1.1,DEVICE-IO-SPIBUS-1.1,DEVICE-IO-UART-1.1,DEVICE-IO-WATCHDOG-1.1,GCF-1.8,HTTPCLIENT-1.1,JSON-1.0,JSR172-1.0,JSR179-1.0,JSR280-1.0,JSR75-FileConnection-1.0,MEEP-CELLULAR-8.0,MEEP-EVENTS-8.0,MEEP-IO-8.0,MEEP-MEDIA-8.0,MEEP-POWER-MANAGEMENT-8.0,MEEP-RMS-8.0,MEEP-SWM-8.0,OAUTH2-1.0,SATSA-APDU-1.0,SATSA-CRYPTO-1.0,WMA-1.1"/>
+         <property key="bootclasspath" value="C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/cldc_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/configuration_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_adc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_atcmd.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_counter.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_dac.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_generic.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_gpio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_i2cbus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_modem.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_spibus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_uart.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_watchdog.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/gcf_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/httpclient_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/json_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr120_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr172_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-apdu.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-crypto.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr179_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr280_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr75_1.0-fc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-cellular.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-event.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-io.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-media.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-power.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-rms.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-swm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/oauth2_1.0.jar"/>
+      </deviceProperties>
+      <name value="Qualcomm_IoE_Device"/>
+      <protectionDomainsCount value="1"/>
+      <protectionDomain0 value=""/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 8.2"/>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\bin\emulator.exe"/>
+      <examples value=""/>
+   </device0>
+   <device1 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="68">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="69">
+         <entryCount value="39"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="70">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\cldc_1.8.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="71">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.8"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/cldc-1.8.zip!/"/>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="72">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\configuration_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="73">
+               <identifier value="CONFIGURATION"/>
+               <name value="Configuration API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/configuration_javadoc.zip!/"/>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="74">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="75">
+               <identifier value="DEVICE-IO"/>
+               <name value="Device I/O API - Access and Control"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="76">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_adc.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="77">
+               <identifier value="DEVICE-IO-ADC"/>
+               <name value="Device I/O API - Analog to Digital Converter (ADC)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="78">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_atcmd.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="79">
+               <identifier value="DEVICE-IO-ATCMD"/>
+               <name value="Device I/O API - AT Commands"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="80">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_counter.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="81">
+               <identifier value="DEVICE-IO-COUNTER"/>
+               <name value="Device I/O API - Pulse Counter"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="82">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_dac.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="83">
+               <identifier value="DEVICE-IO-DAC"/>
+               <name value="Device I/O API - Digital to Analog Converter (DAC)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="84">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_generic.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="85">
+               <identifier value="DEVICE-IO-GENERIC"/>
+               <name value="Device I/O API - Generic I/O"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="86">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_gpio.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="87">
+               <identifier value="DEVICE-IO-GPIO"/>
+               <name value="Device I/O API - General Purpose Input Output (GPIO)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="88">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_i2cbus.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="89">
+               <identifier value="DEVICE-IO-I2CBUS"/>
+               <name value="Device I/O API - Inter-Integrated Circuit Bus (I2C)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="90">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_mmio.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="91">
+               <identifier value="DEVICE-IO-MMIO"/>
+               <name value="Device I/O API - Memory Mapped I/O (MMIO)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="92">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_modem.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="93">
+               <identifier value="DEVICE-IO-MODEM"/>
+               <name value="Device I/O API - Modem"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry11>
+         <entry12 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="94">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_pwm.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="95">
+               <identifier value="DEVICE-IO-PWM"/>
+               <name value="Device I/O API - Pulse Width Modulation (PWM)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry12>
+         <entry13 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="96">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_spibus.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="97">
+               <identifier value="DEVICE-IO-SPIBUS"/>
+               <name value="Device I/O API - Serial Peripheral Interface Bus (SPI)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry13>
+         <entry14 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="98">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_uart.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="99">
+               <identifier value="DEVICE-IO-UART"/>
+               <name value="Device I/O API - Universal Asynchronous Receiver/Transmitter (UART)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry14>
+         <entry15 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="100">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_watchdog.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="101">
+               <identifier value="DEVICE-IO-WATCHDOG"/>
+               <name value="Device I/O API - Watchdog Timers"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry15>
+         <entry16 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="102">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\gcf_1.8.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="103">
+               <identifier value="GCF"/>
+               <name value="Generic Connection Framework"/>
+               <type value="2"/>
+               <version value="1.8"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/gcf-1.8.zip!/"/>
+         </entry16>
+         <entry17 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="104">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\httpclient_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="105">
+               <identifier value="HTTPCLIENT"/>
+               <name value="HTTP Client"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/httpclient_javadoc.zip!/"/>
+         </entry17>
+         <entry18 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="106">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\json_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="107">
+               <identifier value="JSON"/>
+               <name value="JSON"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/json_javadoc.zip!/"/>
+         </entry18>
+         <entry19 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="108">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr120_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="109">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry19>
+         <entry20 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="110">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="111">
+               <identifier value="JSR172"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr172.zip!/"/>
+         </entry20>
+         <entry21 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="112">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr177_1.0-apdu.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="113">
+               <identifier value="SATSA-APDU"/>
+               <name value="Application Protocol Data Unit APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr177.zip!/"/>
+         </entry21>
+         <entry22 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="114">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr177_1.0-crypto.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="115">
+               <identifier value="SATSA-CRYPTO"/>
+               <name value="Java Cryptographics Extension APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr177.zip!/"/>
+         </entry22>
+         <entry23 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="116">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="117">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry23>
+         <entry24 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="118">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="119">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr280.zip!/"/>
+         </entry24>
+         <entry25 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="120">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr75_1.0-fc.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="121">
+               <identifier value="JSR75-FileConnection"/>
+               <name value="FileConnection Optional Package"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry25>
+         <entry26 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="122">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-cellular.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="123">
+               <identifier value="MEEP-CELLULAR"/>
+               <name value="MEEP Cellular"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry26>
+         <entry27 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="124">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-event.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="125">
+               <identifier value="MEEP-EVENTS"/>
+               <name value="MEEP Events"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry27>
+         <entry28 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="126">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-io.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="127">
+               <identifier value="MEEP-IO"/>
+               <name value="MEEP Input Output"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry28>
+         <entry29 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="128">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-key.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="129">
+               <identifier value="MEEP-KEY"/>
+               <name value="MEEP Device Key Input"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry29>
+         <entry30 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="130">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-lui.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="131">
+               <identifier value="MEEP-LUI"/>
+               <name value="MEEP Line-oriented User Interface"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry30>
+         <entry31 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="132">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-media.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="133">
+               <identifier value="MEEP-MEDIA"/>
+               <name value="MEEP Media"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry31>
+         <entry32 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="134">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-power.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="135">
+               <identifier value="MEEP-POWER-MANAGEMENT"/>
+               <name value="MEEP Power Management"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry32>
+         <entry33 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="136">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-rms.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="137">
+               <identifier value="MEEP-RMS"/>
+               <name value="MEEP Record Management Store"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry33>
+         <entry34 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="138">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-swm.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="139">
+               <identifier value="MEEP-SWM"/>
+               <name value="MEEP Software Management"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry34>
+         <entry35 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="140">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="141">
+               <identifier value="MEEP"/>
+               <name value="ME Embedded Profile"/>
+               <type value="1"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry35>
+         <entry36 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="142">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\oauth2_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="143">
+               <identifier value="OAUTH2"/>
+               <name value="OAuth2"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/oauth2_javadoc.zip!/"/>
+         </entry36>
+         <entry37 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="144">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\satsa_extensions_api.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="145">
+               <identifier value="SATSA-EXTENSION"/>
+               <name value="SATSA Extension APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/satsa_extensions_api_javadoc.zip!/"/>
+         </entry37>
+         <entry38 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="146">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\ssl_extensions_api.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="147">
+               <identifier value="SSL-EXTENSION"/>
+               <name value="SSL Extension APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/ssl_extensions_api_javadoc.zip!/"/>
+         </entry38>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="EmbeddedDevice1"/>
+      <deviceProperties>
+         <property key="version.configuration" value="CLDC-1.8"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xi3test,Xmemmon,Xnetmon,Xprofile"/>
+         <property key="apis" value="C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/cldc_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/configuration_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_adc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_atcmd.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_counter.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_dac.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_generic.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_gpio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_i2cbus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_mmio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_modem.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_pwm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_spibus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_uart.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_watchdog.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/gcf_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/httpclient_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/json_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr120_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr172_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-apdu.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-crypto.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr179_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr280_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr75_1.0-fc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-cellular.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-event.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-io.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-key.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-lui.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-media.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-power.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-rms.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-swm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/oauth2_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/satsa_extensions_api.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/ssl_extensions_api.jar"/>
+         <property key="descriptor" value="Java ME Embedded Profile emulator"/>
+         <property key="version.profile" value="MEEP-8.0"/>
+         <property key="bootclasspath" value="C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/cldc_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/configuration_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_adc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_atcmd.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_counter.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_dac.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_generic.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_gpio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_i2cbus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_mmio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_modem.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_pwm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_spibus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_uart.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_watchdog.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/gcf_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/httpclient_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/json_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr120_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr172_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-apdu.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-crypto.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr179_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr280_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr75_1.0-fc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-cellular.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-event.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-io.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-key.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-lui.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-media.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-power.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-rms.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-swm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/oauth2_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/satsa_extensions_api.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/ssl_extensions_api.jar"/>
+         <property key="apis.supported" value="CONFIGURATION-1.0,DEVICE-IO-1.1,DEVICE-IO-ADC-1.1,DEVICE-IO-ATCMD-1.1,DEVICE-IO-COUNTER-1.1,DEVICE-IO-DAC-1.1,DEVICE-IO-GENERIC-1.1,DEVICE-IO-GPIO-1.1,DEVICE-IO-I2CBUS-1.1,DEVICE-IO-MMIO-1.1,DEVICE-IO-MODEM-1.1,DEVICE-IO-PWM-1.1,DEVICE-IO-SPIBUS-1.1,DEVICE-IO-UART-1.1,DEVICE-IO-WATCHDOG-1.1,GCF-1.8,HTTPCLIENT-1.1,JSON-1.0,JSR172-1.0,JSR179-1.0,JSR280-1.0,JSR75-FileConnection-1.0,MEEP-CELLULAR-8.0,MEEP-EVENTS-8.0,MEEP-IO-8.0,MEEP-KEY-8.0,MEEP-LUI-8.0,MEEP-MEDIA-8.0,MEEP-POWER-MANAGEMENT-8.0,MEEP-RMS-8.0,MEEP-SWM-8.0,OAUTH2-1.0,SATSA-APDU-1.0,SATSA-CRYPTO-1.0,SATSA-EXTENSION-1.0,SSL-EXTENSION-1.0,WMA-1.1"/>
+      </deviceProperties>
+      <name value="EmbeddedDevice1"/>
+      <protectionDomainsCount value="1"/>
+      <protectionDomain0 value=""/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 8.2"/>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\bin\emulator.exe"/>
+      <examples value=""/>
+   </device1>
+   <device2 bundle="org.eclipse.mtj.toolkit.uei" class="org.eclipse.mtj.internal.toolkit.uei.UEIDeviceInternal" id="148">
+      <classpath class="org.eclipse.mtj.internal.core.sdk.device.DeviceClasspath" id="149">
+         <entryCount value="39"/>
+         <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="150">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\cldc_1.8.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="151">
+               <identifier value="CLDC"/>
+               <name value="Connected Limited Device Configuration"/>
+               <type value="0"/>
+               <version value="1.8"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/cldc-1.8.zip!/"/>
+         </entry0>
+         <entry1 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="152">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\configuration_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="153">
+               <identifier value="CONFIGURATION"/>
+               <name value="Configuration API"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/configuration_javadoc.zip!/"/>
+         </entry1>
+         <entry2 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="154">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="155">
+               <identifier value="DEVICE-IO"/>
+               <name value="Device I/O API - Access and Control"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry2>
+         <entry3 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="156">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_adc.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="157">
+               <identifier value="DEVICE-IO-ADC"/>
+               <name value="Device I/O API - Analog to Digital Converter (ADC)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry3>
+         <entry4 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="158">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_atcmd.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="159">
+               <identifier value="DEVICE-IO-ATCMD"/>
+               <name value="Device I/O API - AT Commands"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry4>
+         <entry5 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="160">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_counter.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="161">
+               <identifier value="DEVICE-IO-COUNTER"/>
+               <name value="Device I/O API - Pulse Counter"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry5>
+         <entry6 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="162">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_dac.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="163">
+               <identifier value="DEVICE-IO-DAC"/>
+               <name value="Device I/O API - Digital to Analog Converter (DAC)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry6>
+         <entry7 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="164">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_generic.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="165">
+               <identifier value="DEVICE-IO-GENERIC"/>
+               <name value="Device I/O API - Generic I/O"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry7>
+         <entry8 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="166">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_gpio.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="167">
+               <identifier value="DEVICE-IO-GPIO"/>
+               <name value="Device I/O API - General Purpose Input Output (GPIO)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry8>
+         <entry9 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="168">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_i2cbus.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="169">
+               <identifier value="DEVICE-IO-I2CBUS"/>
+               <name value="Device I/O API - Inter-Integrated Circuit Bus (I2C)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry9>
+         <entry10 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="170">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_mmio.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="171">
+               <identifier value="DEVICE-IO-MMIO"/>
+               <name value="Device I/O API - Memory Mapped I/O (MMIO)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry10>
+         <entry11 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="172">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_modem.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="173">
+               <identifier value="DEVICE-IO-MODEM"/>
+               <name value="Device I/O API - Modem"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry11>
+         <entry12 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="174">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_pwm.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="175">
+               <identifier value="DEVICE-IO-PWM"/>
+               <name value="Device I/O API - Pulse Width Modulation (PWM)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry12>
+         <entry13 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="176">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_spibus.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="177">
+               <identifier value="DEVICE-IO-SPIBUS"/>
+               <name value="Device I/O API - Serial Peripheral Interface Bus (SPI)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry13>
+         <entry14 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="178">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_uart.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="179">
+               <identifier value="DEVICE-IO-UART"/>
+               <name value="Device I/O API - Universal Asynchronous Receiver/Transmitter (UART)"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry14>
+         <entry15 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="180">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\device-io_1.1_watchdog.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="181">
+               <identifier value="DEVICE-IO-WATCHDOG"/>
+               <name value="Device I/O API - Watchdog Timers"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/device-io-1.1.zip!/"/>
+         </entry15>
+         <entry16 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="182">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\gcf_1.8.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="183">
+               <identifier value="GCF"/>
+               <name value="Generic Connection Framework"/>
+               <type value="2"/>
+               <version value="1.8"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/gcf-1.8.zip!/"/>
+         </entry16>
+         <entry17 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="184">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\httpclient_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="185">
+               <identifier value="HTTPCLIENT"/>
+               <name value="HTTP Client"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/httpclient_javadoc.zip!/"/>
+         </entry17>
+         <entry18 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="186">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\json_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="187">
+               <identifier value="JSON"/>
+               <name value="JSON"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/json_javadoc.zip!/"/>
+         </entry18>
+         <entry19 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="188">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr120_1.1.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="189">
+               <identifier value="WMA"/>
+               <name value="Wireless Messaging API"/>
+               <type value="2"/>
+               <version value="1.1"/>
+            </entry0>
+         </entry19>
+         <entry20 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="190">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr172_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="191">
+               <identifier value="JSR172"/>
+               <name value="J2ME(TM) Web Services"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr172.zip!/"/>
+         </entry20>
+         <entry21 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="192">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr177_1.0-apdu.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="193">
+               <identifier value="SATSA-APDU"/>
+               <name value="Application Protocol Data Unit APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr177.zip!/"/>
+         </entry21>
+         <entry22 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="194">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr177_1.0-crypto.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="195">
+               <identifier value="SATSA-CRYPTO"/>
+               <name value="Java Cryptographics Extension APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr177.zip!/"/>
+         </entry22>
+         <entry23 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="196">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr179_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="197">
+               <identifier value="JSR179"/>
+               <name value="Location API for J2ME(TM)"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry23>
+         <entry24 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="198">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr280_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="199">
+               <identifier value="JSR280"/>
+               <name value="XML API for Java(TM) ME"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/jsr280.zip!/"/>
+         </entry24>
+         <entry25 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="200">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\jsr75_1.0-fc.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="201">
+               <identifier value="JSR75-FileConnection"/>
+               <name value="FileConnection Optional Package"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+         </entry25>
+         <entry26 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="202">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-cellular.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="203">
+               <identifier value="MEEP-CELLULAR"/>
+               <name value="MEEP Cellular"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry26>
+         <entry27 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="204">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-event.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="205">
+               <identifier value="MEEP-EVENTS"/>
+               <name value="MEEP Events"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry27>
+         <entry28 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="206">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-io.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="207">
+               <identifier value="MEEP-IO"/>
+               <name value="MEEP Input Output"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry28>
+         <entry29 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="208">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-key.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="209">
+               <identifier value="MEEP-KEY"/>
+               <name value="MEEP Device Key Input"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry29>
+         <entry30 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="210">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-lui.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="211">
+               <identifier value="MEEP-LUI"/>
+               <name value="MEEP Line-oriented User Interface"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry30>
+         <entry31 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="212">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-media.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="213">
+               <identifier value="MEEP-MEDIA"/>
+               <name value="MEEP Media"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry31>
+         <entry32 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="214">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-power.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="215">
+               <identifier value="MEEP-POWER-MANAGEMENT"/>
+               <name value="MEEP Power Management"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry32>
+         <entry33 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="216">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-rms.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="217">
+               <identifier value="MEEP-RMS"/>
+               <name value="MEEP Record Management Store"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry33>
+         <entry34 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="218">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0-swm.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="219">
+               <identifier value="MEEP-SWM"/>
+               <name value="MEEP Software Management"/>
+               <type value="2"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry34>
+         <entry35 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="220">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\meep_8.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="221">
+               <identifier value="MEEP"/>
+               <name value="ME Embedded Profile"/>
+               <type value="1"/>
+               <version value="8.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/meep-8.0.zip!/"/>
+         </entry35>
+         <entry36 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="222">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\oauth2_1.0.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="223">
+               <identifier value="OAUTH2"/>
+               <name value="OAuth2"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/oauth2_javadoc.zip!/"/>
+         </entry36>
+         <entry37 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="224">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\satsa_extensions_api.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="225">
+               <identifier value="SATSA-EXTENSION"/>
+               <name value="SATSA Extension APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/satsa_extensions_api_javadoc.zip!/"/>
+         </entry37>
+         <entry38 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPLibrary" id="226">
+            <file value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\lib\ssl_extensions_api.jar"/>
+            <apiCount value="1"/>
+            <entry0 class="org.eclipse.mtj.internal.core.sdk.device.midp.MIDPAPI" id="227">
+               <identifier value="SSL-EXTENSION"/>
+               <name value="SSL Extension APIs"/>
+               <type value="2"/>
+               <version value="1.0"/>
+            </entry0>
+            <javadocURL value="jar:file:/C:/Program%20Files%20(x86)/Java_ME_platform_SDK_8.2/docs/api/ssl_extensions_api_javadoc.zip!/"/>
+         </entry38>
+      </classpath>
+      <debugServer value="true"/>
+      <description value="EmbeddedDevice2"/>
+      <deviceProperties>
+         <property key="version.configuration" value="CLDC-1.8"/>
+         <property key="uei.arguments" value="Xdescriptor,Xjam,Xrunjdwp,Xquery,Xdebug,Xautotest,Xi3test,Xmemmon,Xnetmon,Xprofile"/>
+         <property key="apis" value="C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/cldc_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/configuration_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_adc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_atcmd.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_counter.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_dac.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_generic.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_gpio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_i2cbus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_mmio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_modem.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_pwm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_spibus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_uart.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_watchdog.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/gcf_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/httpclient_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/json_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr120_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr172_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-apdu.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-crypto.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr179_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr280_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr75_1.0-fc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-cellular.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-event.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-io.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-key.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-lui.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-media.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-power.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-rms.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-swm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/oauth2_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/satsa_extensions_api.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/ssl_extensions_api.jar"/>
+         <property key="descriptor" value="Java ME Embedded Profile emulator"/>
+         <property key="apis.supported" value="CONFIGURATION-1.0,DEVICE-IO-1.1,DEVICE-IO-ADC-1.1,DEVICE-IO-ATCMD-1.1,DEVICE-IO-COUNTER-1.1,DEVICE-IO-DAC-1.1,DEVICE-IO-GENERIC-1.1,DEVICE-IO-GPIO-1.1,DEVICE-IO-I2CBUS-1.1,DEVICE-IO-MMIO-1.1,DEVICE-IO-MODEM-1.1,DEVICE-IO-PWM-1.1,DEVICE-IO-SPIBUS-1.1,DEVICE-IO-UART-1.1,DEVICE-IO-WATCHDOG-1.1,GCF-1.8,HTTPCLIENT-1.1,JSON-1.0,JSR172-1.0,JSR179-1.0,JSR280-1.0,JSR75-FileConnection-1.0,MEEP-CELLULAR-8.0,MEEP-EVENTS-8.0,MEEP-IO-8.0,MEEP-KEY-8.0,MEEP-LUI-8.0,MEEP-MEDIA-8.0,MEEP-POWER-MANAGEMENT-8.0,MEEP-RMS-8.0,MEEP-SWM-8.0,OAUTH2-1.0,SATSA-APDU-1.0,SATSA-CRYPTO-1.0,SATSA-EXTENSION-1.0,SSL-EXTENSION-1.0,WMA-1.1"/>
+         <property key="version.profile" value="MEEP-8.0"/>
+         <property key="bootclasspath" value="C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/cldc_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/configuration_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_adc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_atcmd.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_counter.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_dac.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_generic.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_gpio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_i2cbus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_mmio.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_modem.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_pwm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_spibus.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_uart.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/device-io_1.1_watchdog.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/gcf_1.8.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/httpclient_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/json_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr120_1.1.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr172_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-apdu.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr177_1.0-crypto.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr179_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr280_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/jsr75_1.0-fc.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-cellular.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-event.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-io.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-key.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-lui.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-media.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-power.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-rms.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0-swm.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/meep_8.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/oauth2_1.0.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/satsa_extensions_api.jar,C:/Program Files (x86)/Java_ME_platform_SDK_8.2/lib/ssl_extensions_api.jar"/>
+      </deviceProperties>
+      <name value="EmbeddedDevice2"/>
+      <protectionDomainsCount value="1"/>
+      <protectionDomain0 value=""/>
+      <groupName value="Oracle Java(TM) Platform Micro Edition SDK 8.2"/>
+      <rawLaunchCommand value="%executable% [%debugPort%|-Xdebug -Xrunjdwp:transport=dt_socket,suspend=y,server=y,address=%debugPort%] [%classpath%|-classpath &quot;%classpath%&quot;] -Xdevice:%device% [%jadfile%|&quot;-Xdescriptor:%jadfile%&quot;] [%verbose%|-Xverbose:%verbose%] [%heapsize%|-Xheapsize:%heapsize%] [%securityDomain%|-Xdomain:%securityDomain%] %userSpecifiedArguments% [%target%|%target%] [%otaurl%|-Xjam:transient=%otaurl%]"/>
+      <executable value="C:\Program Files (x86)\Java_ME_platform_SDK_8.2\bin\emulator.exe"/>
+      <examples value=""/>
+   </device2>
+   <deviceCount value="3"/>
+</deviceRegistry>

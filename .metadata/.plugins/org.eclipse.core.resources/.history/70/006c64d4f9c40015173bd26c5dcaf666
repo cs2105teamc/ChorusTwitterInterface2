@@ -1,0 +1,16 @@
+package chorustweet;
+
+public class credentials {
+
+	private String account_name;
+	private String[] credentials_array = new String[7];
+	
+	public String getAccount_name() { return account_name; }
+	public void setAccount_name(String acct) { account_name = acct;} 
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

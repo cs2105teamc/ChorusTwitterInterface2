@@ -1,0 +1,45 @@
+package chorustweet;
+import java.net.URLEncoder;
+import java.util.Hashtable;
+
+public class SignatureGenerator {
+	
+	// POST&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fupdate.json&oauth_consumer_key%3D95p1GHyf0qHplNMcJCjlDpArY%26oauth_nonce%3D94f35ae0dc1d8b0228c4e1979e9907c6%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1453976467%26oauth_token%3D4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim%26oauth_version%3D1.0%26status%3DAlessandro%2525should%2525shave.
+	// Authorization: OAuth oauth_consumer_key="95p1GHyf0qHplNMcJCjlDpArY", oauth_nonce="94f35ae0dc1d8b0228c4e1979e9907c6", oauth_signature="UilTLodwuONAREES4TIi78rymxE%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1453976467", oauth_token="4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim", oauth_version="1.0"
+	// curl --request 'POST' 'https://api.twitter.com/1.1/statuses/update.json' --data 'status=Alessandro%25should%25shave.' --header 'Authorization: OAuth oauth_consumer_key="95p1GHyf0qHplNMcJCjlDpArY", oauth_nonce="94f35ae0dc1d8b0228c4e1979e9907c6", oauth_signature="UilTLodwuONAREES4TIi78rymxE%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1453976467", oauth_token="4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim", oauth_version="1.0"' --verbose
+
+private Hashtable<String, String> messageParameters = new Hashtable<String, String>();
+public void setParam (String key, String value) { messageParameters.put(key,value);}
+public String getParam (String key) { return messageParameters.get(key);}	
+public String getParamPair (String key) { return key+"="+messageParameters.get(key);}	
+public String getEncoded (String unencoded) {return encode(unencoded);}
+
+
+
+private String encode(String value) {  
+    String encoded = "";  
+    try {  
+      encoded = URLEncoder.encode(value, "UTF-8");  
+    } catch (Exception e) {  
+      e.printStackTrace();  
+    }  
+     String sb = "";  
+    char focus;  
+    for (int i = 0; i < encoded.length(); i++) {  
+      focus = encoded.charAt(i);  
+      if (focus == '*') {  
+        sb += "%2A"; 
+      } else if (focus == '+') {  
+        sb += "%20";
+      } else if (focus == '%' && i + 1 < encoded.length()  
+          && encoded.charAt(i + 1) == '7' && encoded.charAt(i + 2) == 'E') {  
+        sb += '~';
+        i += 2;  
+      } else {  
+        sb += focus;
+      }  
+    }  
+    return sb.toString();  
+  }
+
+}

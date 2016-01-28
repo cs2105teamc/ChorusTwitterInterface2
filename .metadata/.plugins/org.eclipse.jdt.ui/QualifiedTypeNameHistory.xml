@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="chorustweet.credentials"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="chorustweet.Message"/>
+<fullyQualifiedTypeName name="com.twitterapime.xauth.Token"/>
+<fullyQualifiedTypeName name="com.twitterapime.rest.Credential"/>
+<fullyQualifiedTypeName name="com.twitterapime.rest.UserAccountManager"/>
+<fullyQualifiedTypeName name="com.twitterapime.search.Tweet"/>
+<fullyQualifiedTypeName name="com.twitterapime.rest.TweetER"/>
+</qualifiedTypeNameHistroy>

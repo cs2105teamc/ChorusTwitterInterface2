@@ -1,0 +1,29 @@
+package chorustweet;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URL;
+
+import javax.net.ssl.HttpsURLConnection;
+
+public class HTTPReq {
+	public static void main(String[] args) {
+		try {
+			URL url = new URL("https://api.twitter.com/1.1/account/verify_credentials.json");
+			HttpsURLConnection connect = (HttpsURLConnection)url.openConnection();
+			connect.setRequestMethod("GET");
+			String[] credarray = new String[6];
+			credarray[0] = "oauth_consumer_key"+"="+"95p1GHyf0qHplNMcJCjlDpArY"+",";
+			
+			String credstring = new String;
+			credstring = "Authorization: OAuth oauth_consumer_key="95p1GHyf0qHplNMcJCjlDpArY", oauth_nonce="a101d9371d299b41d97b9abaffde5745", oauth_signature="asL3RyhSubKvmyc%2Ftw4QblDaTVQ%3D", oauth_signature_method="HMAC-SHA1", oauth_timestamp="1453915914", oauth_token="4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim", oauth_version="1.0"";
+			connect.setRequestProperty("Authorization: OAuth ", credstring);
+			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
+			String strTemp = "";
+			while (null != (strTemp = br.readLine())) {
+				System.out.println(strTemp);
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+		}
+	}
+}

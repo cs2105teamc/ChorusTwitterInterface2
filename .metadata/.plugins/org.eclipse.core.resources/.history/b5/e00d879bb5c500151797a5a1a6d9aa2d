@@ -1,0 +1,38 @@
+package chorustweet;
+import java.util.Arrays;
+import net.oauth.*;
+
+ class CredentialsTest {
+	 public static void main (String[] args) {
+		 chorustweet.Message testmsg = new chorustweet.Message();
+		 chorustweet.Credentials test = new chorustweet.Credentials();
+		 chorustweet.SignatureGenerator testSig = new chorustweet.SignatureGenerator();
+//		 Test getting and setting account name and credentials
+//		 test.setAccount_name("CS2105TeamC");
+//		 test.setCredentials("4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim", 0);
+//		 test.setCredentials("3hFyaG5AWiGF6AMW0ZNMpAMNlpBzePjYFUAd9CxdkJzcQ", 1);
+//		 test.setCredentials("95p1GHyf0qHplNMcJCjlDpArY", 2);
+//		 test.setCredentials("uoTrWUWCqHEul2zgXS6bVZtrJS7U1CpFB6WxMkW6vgVI7OfeW9", 3);
+//		 System.out.println("Account name: " + test.getAccount_name());
+//		 System.out.println("Credentials : " + Arrays.toString(test.getCredentials()));
+//		 Arrays.stream(test.getCredentials()).forEach(System.out::println);
+//		 test.setCredHash("oauth_consumer_key", "95p1GHyf0qHplNMcJCjlDpArY");
+//		 test.setCredHash("oauth_token", "4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim");
+		 testSig.setParam("oauth_consumer_key", "95p1GHyf0qHplNMcJCjlDpArY");
+		 System.out.println(testSig.getParamPair("oauth_consumer_key"));
+		 System.out.println(testSig.getEncoded(testSig.getParamPair("oauth_consumer_key")));
+		 System.out.println(testSig.getEncoded("Dogs, Cats & Mice"));
+
+		 
+		 
+		//Test getting and setting message for output
+		 testmsg.setMessage("Alessandro needs a shave");
+		 System.out.println(testmsg.getMessage());
+		 
+		
+		 
+	 }
+
+	 
+	 
+}

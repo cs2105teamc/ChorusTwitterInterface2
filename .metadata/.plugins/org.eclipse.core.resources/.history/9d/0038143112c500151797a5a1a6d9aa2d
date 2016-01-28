@@ -1,0 +1,26 @@
+package chorustweet;
+
+import java.io.IOException;
+
+import com.twitterapime.rest.Credential;
+import com.twitterapime.rest.UserAccountManager;
+import com.twitterapime.search.LimitExceededException;
+import com.twitterapime.xauth.Token;
+
+public class Authtest {
+
+	public static void main(String[] args) throws IOException, LimitExceededException {
+		Token token = new Token("4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim", "3hFyaG5AWiGF6AMW0ZNMpAMNlpBzePjYFUAd9CxdkJzcQ");
+		Credential c = new Credential("95p1GHyf0qHplNMcJCjlDpArY", "uoTrWUWCqHEul2zgXS6bVZtrJS7U1CpFB6WxMkW6vgVI7OfeW9", token);
+		UserAccountManager m = UserAccountManager.getInstance(c);
+		 System.out.println(c);
+		 System.out.println(token);
+		if (m.verifyCredential()) {
+		System.out.println("User's credentials are OK! You're now logged in!");
+		} else {
+		System.out.println("User name and/or password are invalid!");
+		}
+
+	}
+
+}
