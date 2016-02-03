@@ -31,7 +31,7 @@ import java.util.Arrays;
 //		 test.setCredHash("oauth_consumer_key", "95p1GHyf0qHplNMcJCjlDpArY");
 //		 test.setCredHash("oauth_token", "4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim");
 
-		 testSig.setParam("status", "Uploading to GitHub");
+		 testSig.setParam("status", "AOS smells");
 //		 testSig.setParam("include_entities", "true");
 		 testSig.setParam("oauth_consumer_key", "95p1GHyf0qHplNMcJCjlDpArY");
 		 testSig.setParam("oauth_nonce", testnonce.nextSessionId());

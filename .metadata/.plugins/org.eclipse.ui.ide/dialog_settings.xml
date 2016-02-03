@@ -82,6 +82,7 @@
 		<item value="org.eclipse.m2e.wtp.jaxrs.feature:1.2.1.20150819-2220"/>
 		<item value="org.eclipse.m2e.wtp.jpa.feature:1.2.1.20150819-2224"/>
 		<item value="org.eclipse.m2e.wtp.jsf.feature:1.2.1.20150819-2220"/>
+		<item value="org.eclipse.mtj:2.0.1.201509042315"/>
 		<item value="org.eclipse.mylyn.bugzilla_feature:3.17.0.v20150828-2026"/>
 		<item value="org.eclipse.mylyn.commons.identity:1.9.0.v20150828-2041"/>
 		<item value="org.eclipse.mylyn.commons.notifications:1.9.0.v20150828-2041"/>
