@@ -37,17 +37,5 @@ public class HTTPReq {
 		        output.close();
 		         
 		        return responseSB.toString();
-
-			
-			
-//			BufferedReader br = new BufferedReader(new InputStreamReader(url.openStream()));
-//			String strTemp = "";
-//			while (null != (strTemp = br.readLine())) {
-//				System.out.println(strTemp);
-//			}
-//		} catch (Exception ex) {
-//			ex.printStackTrace();
-//		}
-//	}
 }
 }
