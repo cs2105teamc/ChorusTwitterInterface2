@@ -30,7 +30,7 @@ import java.util.Arrays;
 //		 Arrays.stream(test.getCredentials()).forEach(System.out::println);
 //		 test.setCredHash("oauth_consumer_key", "95p1GHyf0qHplNMcJCjlDpArY");
 //		 test.setCredHash("oauth_token", "4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim");
-		 testmsg.setMessage("Automagic");
+		 testmsg.setMessage("Test 123");
 		 testSig.setParam("status", testmsg.getMessage() );
 //		 testSig.setParam("include_entities", "true");
 		 testSig.setParam("oauth_consumer_key", "95p1GHyf0qHplNMcJCjlDpArY");
