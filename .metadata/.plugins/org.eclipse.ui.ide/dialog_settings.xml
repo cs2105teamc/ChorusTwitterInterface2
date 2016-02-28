@@ -139,4 +139,15 @@
 		<item value="org.springsource.sts.package:3.7.2.201511261048-RELEASE-e45"/>
 		<item value="org.springsource.sts:3.7.2.201511261048-RELEASE"/>
 	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\rashacor\Documents\GitHub\Chorus_MessageBroker"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
 </section>

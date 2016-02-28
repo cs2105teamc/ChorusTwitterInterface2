@@ -35,7 +35,7 @@ public class HTTPReq {
 		        // Close streams
 		        br.close();
 		        output.close();
-		         
 		        return responseSB.toString();
+		        
 }
 }

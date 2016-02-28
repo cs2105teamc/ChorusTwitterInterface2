@@ -30,7 +30,7 @@ import java.util.Arrays;
 //		 Arrays.stream(test.getCredentials()).forEach(System.out::println);
 //		 test.setCredHash("oauth_consumer_key", "95p1GHyf0qHplNMcJCjlDpArY");
 //		 test.setCredHash("oauth_token", "4830664103-4GWULAlsO57vCAbZYtOB1rSYxD0hEwW91Rcazim");
-		 testmsg.setMessage("Test 123");
+		 testmsg.setMessage("Return test");
 		 testSig.setParam("status", testmsg.getMessage() );
 //		 testSig.setParam("include_entities", "true");
 		 testSig.setParam("oauth_consumer_key", "95p1GHyf0qHplNMcJCjlDpArY");
@@ -58,7 +58,7 @@ import java.util.Arrays;
 		 System.out.println(header);
 		 System.out.println(postdata);
 		 try {
-			testreq.PostTWT(header , postdata);
+			System.out.println(testreq.PostTWT(header , postdata));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
