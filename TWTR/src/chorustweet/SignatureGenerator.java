@@ -9,7 +9,7 @@ import java.util.Set;
 public class SignatureGenerator {
 
 
-//private Hashtable<String, String> messageParameters = new Hashtable<String, String>();
+//Create data structure to store credential data
 private HashMap<String, String> messageParameters = new HashMap<String, String>();
 private Set<String> keys = messageParameters.keySet();
 private String method = "POST";
